@@ -27,3 +27,4 @@
     </div>
 </div>
 <?php include 'Header_right.php'; ?>
+<?php include 'Footer.php'; ?>
