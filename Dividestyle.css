@@ -4,13 +4,12 @@
 
 #page {
     padding: 10px;
-    width: auto;
+    width: 100%;
     margin: auto;
     position: relative;
-    height: auto;
+    height: 100%;
     text-align: center;
     background-image: url(/img/greygrad.png);
-    background-attachment: fixed;
 }
 
 #header_left {
