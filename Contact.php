@@ -1,6 +1,6 @@
-<?php include 'head.php'; ?>
-<?php include 'header_left.php'; ?>
- <div id="maincontent">
+<?php include 'Head.php'; ?>
+<?php include 'Header_left.php'; ?>
+<div id="maincontent">
                 
 <style>
 /*-- Socials Icons --*/
@@ -26,9 +26,10 @@
     line-height: 20px;
     position: relative;
     margin-bottom: 3px;
-}</style>
+}
+</style>
 
-        <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.dk/maps?q=8270+h%C3%B8jbjerg+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=H%C3%B8jbjerg&amp;gl=dk&amp;t=m&amp;ll=56.117807,10.205612&amp;spn=0.066989,0.145569&amp;z=12&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.dk/maps?q=8270+h%C3%B8jbjerg+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=H%C3%B8jbjerg&amp;gl=dk&amp;t=m&amp;ll=56.117807,10.205612&amp;spn=0.066989,0.145569&amp;z=12&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
+    <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.dk/maps?q=8270+h%C3%B8jbjerg+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=H%C3%B8jbjerg&amp;gl=dk&amp;t=m&amp;ll=56.117807,10.205612&amp;spn=0.066989,0.145569&amp;z=12&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.dk/maps?q=8270+h%C3%B8jbjerg+google+maps&amp;ie=UTF8&amp;hq=&amp;hnear=H%C3%B8jbjerg&amp;gl=dk&amp;t=m&amp;ll=56.117807,10.205612&amp;spn=0.066989,0.145569&amp;z=12&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left"></a></small>
         <!-- Start kontakt Div 1 -->
 	    <div class="row-fluid">
     <!-- Start kontakt Div 1 Venstre -->
@@ -39,11 +40,19 @@
                  <div class="continfo_item"><span class="ico_socialize"><img src="Img/mail.png" alt="Addressen" width="42" height="42"></span><bold>Skriv til os! <br> Vi forsøger at svare indenfor 24 timer</bold></div>
  
     </div>
-            <!-- Slut kontakt Div 1 Venstre -->
-    <div class="span4"><h4 align="center">Kunde eller presse?</h4><br>Uanset hvem du er så er vi altid klar på en snak. Har du fx spørgsmål omkring <li>Levering</li><li>Presse</li><li>Reklamation</li>Så tvivl ikke og grib telefonen</div>
+        <!-- Slut kontakt Div 1 Venstre -->
+    <div class="span4">
+        <h4 align="center">Kunde eller presse?</h4>
+        <br>
+        Uanset hvem du er så er vi altid klar på en snak. Har du fx spørgsmål omkring
+        <li>Levering</li>
+        <li>Presse</li>
+        <li>Reklamation</li>
+        Så tvivl ikke og grib telefonen
+    </div>
     <div class="span4"><h4 align="center">Kunde eller presse?</h4><br>Uanset hvem du er så er vi altid klar på en snak. Har du fx spørgsmål omkring <li>Levering</li><li>Presse</li><li>Reklamation</li>Så tvivl ikke og grib telefonen</div>
     </div>
         <!-- Slut kontakt Div 1 -->
 
-            </div>
+</div>
 <?php include 'header_right.php'; ?>
