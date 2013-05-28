@@ -34,10 +34,25 @@
 	    <div class="row-fluid">
     <!-- Start kontakt Div 1 Venstre -->
             <div class="span4">
-    <h4 align="center">Få fat på os.</h4>
-       <div class="continfo_item"><span class="ico_socialize"><img src="Img/hjem.png" alt="Addressen" width="42" height="42"></span><bold>Tulshøjvej 46 <br>8270 Højbjerg</bold></div>
- <div class="continfo_item"><span class="ico_socialize"><img src="Img/telefon.png" alt="Addressen" width="42" height="42"></span><bold>30 74 77 40 <br>86 27 77 40 </bold></div>
-                 <div class="continfo_item"><span class="ico_socialize"><img src="Img/mail.png" alt="Addressen" width="42" height="42"></span><bold>Skriv til os! <br> Vi forsøger at svare indenfor 24 timer</bold></div>
+                <h4 align="center">Få fat på os.</h4>
+                <div class="continfo_item">
+                    <span class="ico_socialize">
+                        <img src="Img/hjem.png" alt="Addressen" width="42" height="42">
+                    </span>
+                    <b>Tulshøjvej 46<br>8270 Højbjerg</b>
+                </div>
+                <div class="continfo_item">
+                    <span class="ico_socialize">
+                        <img src="Img/telefon.png" alt="Addressen" width="42" height="42">
+                    </span>
+                    <b>30 74 77 40<br>86 27 77 40</b>
+                </div>
+                 <div class="continfo_item">
+                     <span class="ico_socialize">
+                         <img src="Img/mail.png" alt="Addressen" width="42" height="42">
+                     </span>
+                     <b>Skriv til os! <br> Vi forsøger at svare indenfor 24 timer</b>
+                 </div>
  
     </div>
         <!-- Slut kontakt Div 1 Venstre -->
