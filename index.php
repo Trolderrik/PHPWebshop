@@ -1,5 +1,5 @@
-<?php include 'head.php'; ?>
-<?php include 'header_left.php'; ?>
+<?php include 'Header.php'; ?>
+<?php include 'Header_left.php'; ?>
 <div id="maincontent">
                 
 
@@ -29,4 +29,4 @@
     </div>
             
 </div>
-<?php include 'header_right.php'; ?>
+<?php include 'Header_right.php'; ?>
