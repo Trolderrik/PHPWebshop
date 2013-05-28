@@ -6,22 +6,22 @@
         $antalPersoner = $_POST['nrOfPersons'];
         
         // variables for database access
-        $dbUsername = "DB_015";
-        $dbPassword = "12399";
+        $dbUsername = "";
+        $dbPassword = "";
 
         // query to retrieve information specific to submitted productcode
-        try {
-            $dbh = new PDO('oci:dbname=//localhost:1521/dbwc', $dbUsername, $dbPassword, array(PDO::ATTR_PERSISTENT => true));
-            $q = <<<SQL
-                SELECT *
-                FROM P_PRODUCTS
-                WHERE PRODUCTCODE = $code
-            SQL;
-                $stmt = $dbh->prepare($q);
-                $stmt->execute();
-            } catch (PDOException $e) {
-                echo $e->getMessage();
-            }?>
+        //try {
+        //    $dbh = new PDO('oci:dbname=//localhost:1521/dbwc', $dbUsername, $dbPassword, array(PDO::ATTR_PERSISTENT => true));
+        //    $q = <<<SQL
+        //        SELECT *
+        //        FROM P_PRODUCTS
+        //        WHERE PRODUCTCODE = $code
+        //    SQL;
+        //        $stmt = $dbh->prepare($q);
+        //        $stmt->execute();
+        //    } catch (PDOException $e) {
+        //        echo $e->getMessage();
+        //    }?>
     <div class="default_padding">
         <img src="Images/free-slider-img2.png" width="100%" alt="some_text">
     </div> 
