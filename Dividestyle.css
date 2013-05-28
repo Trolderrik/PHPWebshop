@@ -1,0 +1,61 @@
+#likebox-wrapper * {
+   width: 100% !important;
+}
+
+#page {
+    padding: 10px;
+    width: auto;
+    margin: auto;
+    position: relative;
+    height: auto;
+    text-align: center;
+    background-image: url(/img/greygrad.png);
+    background-attachment: fixed;
+}
+
+#header_left {
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+}
+
+.navButton {
+    width: fill-available;
+    position: relative;
+    vertical-align: middle;
+}
+
+#header_left img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-height: 25%;
+    display: block;
+}
+
+#maincontent {
+    width: 55%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+#header_right {
+    position: fixed;
+    z-index: 1;
+    width: 20%;
+    text-align: right;
+    right: 0;
+}
+
+#calculatorback {
+    background-image: url(Images/GreenCalculatorBackground.png);
+    padding: 10px;
+}
+
+.default_padding {
+    padding-bottom: 10px;
+}
+
+#footer_block {
+    display: block;
+}
