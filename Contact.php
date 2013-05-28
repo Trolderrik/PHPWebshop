@@ -70,4 +70,5 @@
         <!-- Slut kontakt Div 1 -->
 
 </div>
-<?php include 'header_right.php'; ?>
+<?php include 'Header_right.php'; ?>
+<?php include 'Footer.php'; ?>
